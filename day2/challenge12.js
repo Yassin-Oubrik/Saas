@@ -1,0 +1,11 @@
+const prompt = require('prompt-sync')();
+let x = Number(prompt('Donner un nombre de quatre chiffres : '));
+let a = Math.floor(x / 10);
+let b = Math.floor(a / 10);
+let c = Math.floor(b / 10);
+let d = Math.floor(c / 10);
+let e = x % 10;
+let f = a % 10;
+let j = b % 10;
+let k = c % 10;
+console.log(`L inverse est ' ${e} ${f}  ${j}  ${k}`);
