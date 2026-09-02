@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')();
 
-let a = Number(prompt('Donner le nombre d’années : '));
+let a = Number(prompt('Donner le nombre dannées : '));
 
 console.log('1. Mois');
 console.log('2. Jours');
