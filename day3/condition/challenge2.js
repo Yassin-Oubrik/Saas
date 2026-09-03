@@ -13,4 +13,4 @@ switch (c) {
     default:
         console.log('Ce n est pas une voyelle');
 }
-//les nombre voyelle a, e, i, o, u
+//voyelle a, e, i, o, u
