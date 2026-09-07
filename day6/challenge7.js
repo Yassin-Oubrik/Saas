@@ -10,7 +10,7 @@ for (let i = 0; i < n; i++) {
           if (tab[i]<tab[j]) {
             res=tab[i];
             tab[i]=tab[j];
-            tab[j]=res;        }
+            tab[j]=res;     }
     }
 }
 console.log(tab);
